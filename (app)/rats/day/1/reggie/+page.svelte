@@ -1,7 +1,7 @@
 <script lang="ts">
     import blush from "$lib/assets/game/blush.png";
     import reggie from "$lib/assets/game/reggie.png";
-    import { datePlaces } from "$lib/rats/game_data";
+    import { datePlaces } from "../../../../../_src/_lib/rats/game_data";
 
     // const interpreter = interpret(reggiePark1);
 
