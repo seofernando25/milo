@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
+
+:root {
+    image-rendering: pixelated;
+    font-family: "Sue Ellen Francisco";
+    color-scheme: light;
+    background: url("/flowers.png") repeat;
+    cursor: url("/cursor/cursor1.png"), auto;
+    animation: cursor 1s infinite, scroll-bl 5s linear infinite;
+    background-color: #f0d7d7;
+}
+
+body {
+    margin: 0;
+}
+
+.not-pixelated {
+    image-rendering: auto;
+}
+
+@keyframes scroll-bl {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -250px 250px;
+    }
+}
+
+/* Buttons and hoverables */
+a,
+button,
+input {
+    cursor: url("/cursor/cursor1.png"), auto;
+    animation: click 1s infinite;
+}
+
+/* 8 cursosrs */
+@keyframes cursor {
+    0% {
+        cursor: url("/cursor/cursor1.png"), auto;
+    }
+    12% {
+        cursor: url("/cursor/cursor2.png"), auto;
+    }
+    25% {
+        cursor: url("/cursor/cursor3.png"), auto;
+    }
+    37% {
+        cursor: url("/cursor/cursor4.png"), auto;
+    }
+    50% {
+        cursor: url("/cursor/cursor5.png"), auto;
+    }
+    62% {
+        cursor: url("/cursor/cursor6.png"), auto;
+    }
+    75% {
+        cursor: url("/cursor/cursor7.png"), auto;
+    }
+    87% {
+        cursor: url("/cursor/cursor8.png"), auto;
+    }
+    100% {
+        cursor: url("/cursor/cursor1.png"), auto;
+    }
+}
+
+@keyframes click {
+    0% {
+        cursor: url("/click/click1.gif"), auto;
+    }
+    12% {
+        cursor: url("/click/click2.gif"), auto;
+    }
+    25% {
+        cursor: url("/click/click3.gif"), auto;
+    }
+    37% {
+        cursor: url("/click/click4.gif"), auto;
+    }
+    50% {
+        cursor: url("/click/click5.gif"), auto;
+    }
+    62% {
+        cursor: url("/click/click6.gif"), auto;
+    }
+    75% {
+        cursor: url("/click/click7.gif"), auto;
+    }
+    87% {
+        cursor: url("/click/click8.gif"), auto;
+    }
+    100% {
+        cursor: url("/click/click1.gif"), auto;
+    }
+}
+
+hr {
+    /* /hr.png */
+    background: url("/hr.png") repeat-x;
+    width: 100%;
+    height: 1rem;
+}
