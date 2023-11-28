@@ -1,3 +1,3 @@
 export default {
-    content: ["./index.html", "./src/**/*.{svelte,js,ts,jsx,tsx}"],
+	content: ["./index.html", "./src/**/*.{svelte,js,ts,jsx,tsx}"],
 };
